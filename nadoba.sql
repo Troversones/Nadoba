@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2022. Ápr 07. 01:52
--- Kiszolgáló verziója: 10.4.21-MariaDB
--- PHP verzió: 8.0.11
+-- Létrehozás ideje: 2022. Ápr 08. 11:31
+-- Kiszolgáló verziója: 10.4.6-MariaDB
+-- PHP verzió: 7.3.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -66,13 +67,13 @@ CREATE TABLE `felhasznalok` (
 --
 
 INSERT INTO `felhasznalok` (`id`, `user_id`, `email`, `username`, `password`, `date`) VALUES
-(20, 1111111111, 'creativeemail@gmail.com', 'Miert123', 'asd1234', '2022-01-30 14:40:01'),
-(21, 2222222222, 'kisbencerobert2002@gmail.com', 'Troversones', 'Kisdoomritahap45', '2022-01-30 14:40:45'),
-(22, 3333333333, 'adminlogin@gmail.com', 'admin', 'admin123', '2022-01-30 14:42:19'),
-(23, 4444444444, 'randomdude1@gmail.com', 'randomdude1', 'asd321', '2022-01-30 14:42:19'),
-(24, 5555555555, 'randomdude2@gmail.com', 'randomdude2', 'asd4321', '2022-01-30 14:43:21'),
-(25, 6666666666, 'randomdude3@gmail.com', 'randomdude3', 'asd54321', '2022-01-30 14:44:09'),
-(26, 46757, 'bangvang@gmail.com', 'bettertopwinkek', 'admin1234', '2022-03-02 11:09:39');
+(20, 45612345, 'varsan2002@gmail.com', 'Vargasan', 'rnx2045', '2022-04-08 09:22:36'),
+(21, 94817453, 'kisbencerobert2002@gmail.com', 'Troversones', 'Kisdoomritahap45', '2022-04-08 09:22:49'),
+(22, 22416523, 'adminlogin@gmail.com', 'admin', 'xAd45BKeL911hgA', '2022-04-08 09:25:48'),
+(23, 98127234, 'kisbence500@gmail.com', 'Kis Bence', 'hapiwi45', '2022-04-08 09:27:05'),
+(24, 13469172, 'Kincsesvirag@gmail.com', 'Virág Kincses', 'Ilovemycat', '2022-04-08 09:26:55'),
+(25, 32471823, 'Mohammadreza@gmail.com', 'Mohammad Reza', 'doggy435', '2022-04-08 09:27:42'),
+(26, 46757263, 'katalintakacs@gmail.com', 'takacskatalin', 'fxwha9901', '2022-04-08 09:24:34');
 
 -- --------------------------------------------------------
 
